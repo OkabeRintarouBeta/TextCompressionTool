@@ -21,14 +21,15 @@ This project is part of the [Coding Challenges](https://codingchallenges.fyi/cha
    ./compressText -in=test_files/test.txt -out=test_files/test_compressed.txt
    ```
    You could see that the file size is compressed to 1.8MB.
-    
+   ![example](https://github.com/OkabeRintarouBeta/TextCompressionTool/blob/main/imgs/example-size.jpg?raw=true)    
+
     b. To decompress back to the original file, use
     ```
     ./compressText -d -in=test_files/test_compressed.txt -out=test_files/test_recovered.txt
    ```
    
     It could be seen that the decompressed file is the same as the original `test.txt`.
-
+   ![example-2](https://github.com/OkabeRintarouBeta/TextCompressionTool/blob/main/imgs/example-size-2.jpg?raw=true)
 ## Next steps
 Compress multiple files concurrently
 
